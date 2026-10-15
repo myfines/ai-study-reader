@@ -1,0 +1,19 @@
+
+> ai-study-reader@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:27984) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:23264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\e2e\reader.spec.ts:18:1 › PDF annotations survive zoom, page navigation, reload and offline reading (17.7s)
+  ok 2 tests\e2e\reader.spec.ts:106:1 › highlight, rectangle, erase and undo persist as independent objects (2.3s)
+  ok 3 tests\e2e\reader.spec.ts:142:1 › TXT import, selection and progress persist (952ms)
+  ok 4 tests\e2e\reader.spec.ts:165:1 › TXT scroll progress restores after reopening (1.4s)
+  ok 5 tests\e2e\settings.spec.ts:2:1 › preview refuses API keys and clearly reports desktop-only AI (1.4s)
+
+  5 passed (29.7s)
+

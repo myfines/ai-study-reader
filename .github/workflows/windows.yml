@@ -1,0 +1,33 @@
+name: Windows verification and installer
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Rust toolchain
+        run: rustup update stable
+      - name: Install frontend dependencies
+        run: npm ci
+      - name: Frontend tests
+        run: npm test
+      - name: Frontend build
+        run: npm run build
+      - name: Rust tests
+        working-directory: src-tauri
+        run: cargo test --locked
+      - name: Edge browser acceptance
+        run: npm run test:e2e
+      - name: Build Windows NSIS installer
+        run: npm run bundle
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AI-Study-Reader-Windows
+          path: src-tauri/target/release/bundle/nsis/*-setup.exe

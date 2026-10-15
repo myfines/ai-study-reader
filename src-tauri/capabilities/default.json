@@ -1,0 +1,11 @@
+{
+  "identifier": "default",
+  "description": "Main reader window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-destroy",
+    "dialog:allow-open",
+    "core:window:allow-close"
+  ]
+}

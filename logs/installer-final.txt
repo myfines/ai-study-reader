@@ -1,0 +1,10 @@
+
+> ai-study-reader@0.1.0 tauri
+> tauri bundle --bundles nsis --no-binary-patching
+
+        Warn Skipping binary patching for C:\tmp\ai-study-reader-target\release\ai-study-reader.exe due to --no-binary-patching flag.
+        Info Target: x64
+     Running makensis to produce C:\tmp\ai-study-reader-target\release\bundle\nsis\AI Study Reader_0.1.0_x64-setup.exe
+    Finished 1 bundle at:
+        C:\tmp\ai-study-reader-target\release\bundle\nsis\AI Study Reader_0.1.0_x64-setup.exe (5.73 MiB)
+

@@ -1,0 +1,1 @@
+PASS exact NSIS payload: launch, bundled frontend/assets, system settings IPC, graceful close

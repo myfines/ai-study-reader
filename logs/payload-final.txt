@@ -1,0 +1,22 @@
+
+7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25
+
+Scanning the drive for archives:
+1 file, 6003938 bytes (5864 KiB)
+
+Extracting archive: release\AI Study Reader_0.1.0_x64-setup.exe
+--
+Path = release\AI Study Reader_0.1.0_x64-setup.exe
+Type = Nsis
+Physical Size = 6003938
+Method = LZMA:23
+Solid = +
+Headers Size = 201550
+Embedded Stub Size = 54272
+SubType = NSIS-3 Unicode
+
+Everything is Ok
+
+Files: 4
+Size:       12031952
+Compressed: 6003938

@@ -1,0 +1,14 @@
+
+> ai-study-reader@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.4 E:/game try/ai-study-reader
+
+
+ Test Files  5 passed (5)
+      Tests  20 passed (20)
+   Start at  13:59:51
+   Duration  361ms (transform 39%, import 34%, tests 14%, worker 12%, environment 1%)
+
+

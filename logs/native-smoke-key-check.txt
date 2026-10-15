@@ -1,0 +1,6 @@
+
+> ai-study-reader@0.1.0 test:native
+> node tests/native-smoke.mjs
+
+PASS native SQLite + OS credentials + coordinate recovery + real Rust HTTP/SSE transport fixture + saved links + offline reading + graceful close
+Isolated test data: C:\Users\zrk\AppData\Local\Temp\ai-study-native-9ZgC7b

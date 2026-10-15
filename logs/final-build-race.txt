@@ -1,0 +1,21 @@
+
+> ai-study-reader@0.1.0 build
+> node scripts/assets.mjs && tsc -b && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1602 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                          0.40 kB │ gzip:   0.28 kB
+dist/assets/cursor-editorTextHighlight-kG3uUOwL.svg      5.40 kB │ gzip:   2.15 kB
+dist/assets/pdf.worker.min-CjEcRF4W.mjs              1,264.34 kB
+dist/assets/index-qmu1JJQz.css                         185.51 kB │ gzip:  39.84 kB
+dist/assets/index-IYOO5PDF.js                          708.95 kB │ gzip: 217.72 kB
+✓ built in 3.56s
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
